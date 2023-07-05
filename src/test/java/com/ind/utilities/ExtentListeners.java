@@ -125,6 +125,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener{
 		}
 		
 		SendEmail.mail(totalTestCases, passTestCases, failedTestCases);
+		//System.out.println("Hi Aniket..");
 
 	}
 
